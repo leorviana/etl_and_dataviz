@@ -37,7 +37,7 @@ Decision makers will use dashboards and reports to make the best decisions based
 Stakeholders must be able to easily see and understand reports and dashboards so they can make better data-driven decisions. That is, our project must be able to generate intelligence for the business and decision making.
 
 ## Final Users
-- StackHolders
+- StakeHolders
 - Other Data Scientists and Data Analystis
 
 ## Available Data
