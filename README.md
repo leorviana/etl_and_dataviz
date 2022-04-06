@@ -10,6 +10,10 @@ But an ETL process does not mean anything by itself, it only serves to help us g
 
 You are a Data Analyst at PowerMasterLearning, a retail chain that sells electronics and home appliances with stores spread across several cities in Brazil. The company started its operation in Brazil in 2012 and operates in the four states of the Southeast region plus the states of Paraná and Bahia.
 
+<p align="center">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/construcao-da-fast-shop-0001.jpg" width="700">
+</p>
+
 The company is setting up its sales strategy for the next year and needs to know which of the manufacturers of the products sold has the best sales performance. The objective is to discard manufacturers whose products have few sales and try to negotiate better conditions with the main manufacturers. In parallel with this, the company would like to have different views of sales made in the last 4 years (period from 2012 to 2015). 
 It should be possible to segment sales reports by different information and from different angles. This information will support the company's strategies for the coming year. 
 
@@ -29,6 +33,10 @@ Second, two python scripts were developed to do the ETL, one script loads the cs
 Finally, with the data clean and available in the DW, we can connect Power BI to this database and thus generate the dashboards and reports requested by the business area.
 
 As new data is generated monthly, our python script will run every month when the new csvs files become available, and update the data warehouse.
+
+<p align="left">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/PIPE.png">
+</p>
 
 ## Integration and Use
 Decision makers will use dashboards and reports to make the best decisions based on available data, the dashboads will avaible in the Power BI Cloud and the reports will be send by email.
@@ -55,48 +63,48 @@ We have at our disposal some csv files with information about sales, sellers, st
 
 # Results
 
-## Data Ware House
+## Data Warehouse
 
 After the project is completed, we have a Data Warehouse built and ready for use, with some data already available. Below, we can check the schema of our database:
 
 <p align="left">
-  <img src="">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/schema.png">
 </p>
 
 ## Dashboard
+Below we have only an image of the developed dashboard, the file is located between the project folders. The purpose of the dashboard was to provide an overview of the company's current sales scenario and help stakeholders make the best decisions.
 
 <p align="left">
-  <img src="">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/dash_vendas_page-0001.jpg">
 </p>
 
 ## Analysis Report
+The purpose of the report below is to further assist stakeholders with a little more in-depth analysis of certain details and phenomena observed.
 
+1.
 <p align="left">
-  <img src="">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/storytelling_pages-to-jpg-0001.jpg">
 </p>
-
+2.
 <p align="left">
-  <img src="">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/storytelling_pages-to-jpg-0002.jpg">
 </p>
-
+3.
 <p align="left">
-  <img src="">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/storytelling_pages-to-jpg-0003.jpg">
 </p>
-
+4.
 <p align="left">
-  <img src="">
+  <img src="https://github.com/leorviana/extract_transform_load_1/blob/main/images/storytelling_pages-to-jpg-0004.jpg">
 </p>
 
 # Conclusion
-
 From the Data WareHouse and the scripts created we can now update our database monthly, thus updating our reports and dashboards. And from these reports and dashboards, the stackholders will be able to make better decisions about the business. Finally, we managed to develop a solution that helps the company to profit.
 
 ## Next Steps
-
 Keep updating the database with more and more data, in order to accumulate as much informational value as possible.
 
 Improve the ETL process, replacing python with specific tools like AirFlow or Pentaho.
 
 ## References
-
 Instituição “Data Science Academy”. Disponível em: <https://www.datascienceacademy.com.br/>.
