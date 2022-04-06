@@ -1,8 +1,10 @@
-# Extract, Transform and Load - ETL
+# ETL and Data Visualization
 
 ETL, which stands for extract, transform and load, is a data integration process that combines data from multiple data sources into a single, consistent data store that is loaded into a data warehouse or other target system.
 
 ETL provides the foundation for data analytics and machine learning workstreams. Through a series of business rules, ETL cleanses and organizes data in a way which addresses specific business intelligence needs, like monthly reporting, but it can also tackle more advanced analytics, which can improve back-end processes or end user experiences.
+
+But an ETL process does not mean anything by itself, it only serves to help us generate value for the company with the accumulation of an asset as important as data, and to generate value with data we need to extract knowledge from it. From this, as defined in the later section, we will generate some reports and dashboards that help in making decisions based on the data.
 
 # Business Problem
 
@@ -53,7 +55,7 @@ We have at our disposal some csv files with information about sales, sellers, st
 
 # Results
 
-## Data WareHouse
+## Data Ware House
 
 After the project is completed, we have a Data Warehouse built and ready for use, with some data already available. Below, we can check the schema of our database:
 
@@ -61,7 +63,25 @@ After the project is completed, we have a Data Warehouse built and ready for use
   <img src="">
 </p>
 
-## DashBoard
+## Dashboard
+
+<p align="left">
+  <img src="">
+</p>
+
+## Analysis Report
+
+<p align="left">
+  <img src="">
+</p>
+
+<p align="left">
+  <img src="">
+</p>
+
+<p align="left">
+  <img src="">
+</p>
 
 <p align="left">
   <img src="">
@@ -69,6 +89,14 @@ After the project is completed, we have a Data Warehouse built and ready for use
 
 # Conclusion
 
+From the Data WareHouse and the scripts created we can now update our database monthly, thus updating our reports and dashboards. And from these reports and dashboards, the stackholders will be able to make better decisions about the business. Finally, we managed to develop a solution that helps the company to profit.
+
 ## Next Steps
 
+Keep updating the database with more and more data, in order to accumulate as much informational value as possible.
+
+Improve the ETL process, replacing python with specific tools like AirFlow or Pentaho.
+
 ## References
+
+Instituição “Data Science Academy”. Disponível em: <https://www.datascienceacademy.com.br/>.
